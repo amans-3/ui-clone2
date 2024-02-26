@@ -1,0 +1,136 @@
+@media screen and (max-width:1152px) {
+    body{
+        height: 100vh;
+    }
+    .box1{
+        left: -18em;
+    }
+    .box2{
+        left: -36em;
+    }
+    .line-1{
+        top: 1.8em;
+    }
+    .circle-1{
+        top: 4em;
+    }
+    .line-2{
+        left: -15.4em;
+    }
+    .circle-2{
+        left: -11em;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .list{
+        width: fit-content;
+    }
+    .list::after{
+        content: '☰';
+        margin-left: 1em;
+        font-size: 2em;
+    }
+    .list ul{
+        display: none;
+    }
+    .left-side{
+        padding: 0;
+    }
+    .left-side button{
+        margin: 0;
+    }
+    .box1{
+        left: -17em;
+        top: 14em;
+    }
+    .box2{
+        left: -33em;
+    }
+    .box1,.box2{
+        padding: 1em;
+    }
+    .line-1{
+        top: 10.8em;
+        left: -6em;
+    }
+    .circle-1{
+        top: 8em;
+        left: -4em;
+    }
+    .line-2{
+        left: -14.3em;
+    }
+    .circle-2{
+        left: -10em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .left-side h1{
+        font-size: 2.5em;
+    }
+    .left-side button{
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width:576px) {
+    body{
+        background-size: cover;
+    }
+    .left-side h1{
+        font-size: 2em;
+    }
+    .left-side button{
+        padding: .5em 1em;
+    }
+    .box1,.box2{
+        padding: .5em;
+    }
+    .puzzle{
+        padding: 0 1em;
+    }
+    .puzzle .icons{
+        width: 1.2em;
+    }
+    .box1 h3,.box2 h3{
+        font-size: small !important;
+    }
+    .box1{
+        left: -8em;
+        top: 16em;
+    }
+    .box2{
+        left: -22em;
+    }
+    .box1,.box2{
+        padding: 1em;
+    }
+    .line-1{
+        top: 12.9em;
+    }
+    .circle-1{
+        top: 10em;
+    }
+    .line-2{
+        left: -12em;
+        top: 3.7em;
+        transform: rotate(90deg);
+    }
+    .circle-2{
+        top: 1em;
+    }
+}
+
+@media screen and (max-width:406px) {
+    .main{
+        padding: 5px;
+    }
+    .box1,.box2{
+        padding: .5em;
+    }
+    .box2{
+        left: -18em;
+    }
+}

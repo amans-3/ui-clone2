@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 120vh;
+  background-image: url(/images/retro-living-room-interior-design.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.main {
+  padding: 0 2.5em;
+}
+
+.navbar,
+.list,
+.list ul,
+.contact-info,
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  width: 70%;
+  padding-bottom: 1em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 1em;
+  padding: 2px;
+}
+.list ul li:first-child {
+  margin-left: 0;
+}
+.list {
+  border-bottom: 2px solid #fff;
+}
+ 
+.icons {
+  width: 1.8em;
+  margin: 10px;
+}
+.left-side {
+  padding: 5em 0;
+  padding-left: 1.5em;
+}
+
+.left-side h1 {
+  font-size: 3.3em;
+}
+.left-side button {
+  border: 2.8px solid #ffffff;
+  border-radius: 2em;
+  background-color: transparent;
+  font-size: larger;
+  margin-top: 2.8em;
+  padding: .8em 2.2em;
+}
+
+.right-side {
+  position: relative;
+}
+.box1,
+.box2 {
+  background-color: #ffffff2d; 
+  position: absolute;
+  padding: 1em 2em;
+}
+.box1 {
+  left: -22em;
+  top: -12em;
+}
+.box2{
+    left: -45em;
+  top: 6.8em;
+}
+.rounded-bg {
+  border-radius: 1.8em;
+  background-color: #fff;
+  display: inline-block;
+  padding: 0 2em;
+}
+
+.line{ 
+  width: 5em;
+  background-color: #ffffff;
+  position: absolute;
+}
+.line-1{
+  left: -12em;
+  top: .35em;
+  transform: rotate(90deg);
+}
+.line-2{
+  top: 9em;
+  left: -24.35em;
+}
+.circle{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.circle-1{
+  left: -9.97em;
+  top: 3em;
+}
+.circle-2{
+  left: -20em;
+  top: 9.1em;
+}
